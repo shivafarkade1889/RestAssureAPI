@@ -1,0 +1,392 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Automated RESTAPI COurse Rahul",
+    "phone_number": "+91-8887744152",
+    "address": "Asara Colony Akot, India",
+    "website": "http://google.com",
+    "language": "English-EN",
+    "types": [
+        "AWS",
+        "AZUR",
+        "GCP"
+    ],
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    }
+}
+HTTP/1.1 200 OK
+Date: Wed, 30 Jun 2021 09:52:18 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "32e0206821cee62f67ac0605c12d9431",
+    "scope": "APP",
+    "reference": "812975ae361d395438e69a9ade7c170d812975ae361d395438e69a9ade7c170d",
+    "id": "812975ae361d395438e69a9ade7c170d"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Test1",
+    "phone_number": "+91-8887744152",
+    "address": "TC01 US",
+    "website": "http://google.com",
+    "language": "US North",
+    "types": [
+        "AWS",
+        "AZUR",
+        "GCP"
+    ],
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    }
+}
+HTTP/1.1 200 OK
+Date: Wed, 30 Jun 2021 09:52:19 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "f92375de0cd3c43bb9976669718c3320",
+    "scope": "APP",
+    "reference": "80f8cb90c54ca2badf73fe992a8e72cd80f8cb90c54ca2badf73fe992a8e72cd",
+    "id": "80f8cb90c54ca2badf73fe992a8e72cd"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=f92375de0cd3c43bb9976669718c3320
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=f92375de0cd3c43bb9976669718c3320
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 30 Jun 2021 09:52:20 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 222
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Test1",
+    "phone_number": "+91-8887744152",
+    "address": "TC01 US",
+    "types": "AWS,AZUR,GCP",
+    "website": "http://google.com",
+    "language": "US North"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Test2",
+    "phone_number": "+91-8887744152",
+    "address": "TC02 US",
+    "website": "http://google.com",
+    "language": "US South",
+    "types": [
+        "AWS",
+        "AZUR",
+        "GCP"
+    ],
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    }
+}
+HTTP/1.1 200 OK
+Date: Wed, 30 Jun 2021 09:52:22 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "76c66f4fefb381606e99f6acb652dd1c",
+    "scope": "APP",
+    "reference": "cea0b9b8681c472fbea4054fb3d27026cea0b9b8681c472fbea4054fb3d27026",
+    "id": "cea0b9b8681c472fbea4054fb3d27026"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=76c66f4fefb381606e99f6acb652dd1c
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=76c66f4fefb381606e99f6acb652dd1c
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 30 Jun 2021 09:52:22 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 222
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Test2",
+    "phone_number": "+91-8887744152",
+    "address": "TC02 US",
+    "types": "AWS,AZUR,GCP",
+    "website": "http://google.com",
+    "language": "US South"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Test3",
+    "phone_number": "+91-8887744152",
+    "address": "TC03 US",
+    "website": "http://google.com",
+    "language": "US East",
+    "types": [
+        "AWS",
+        "AZUR",
+        "GCP"
+    ],
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    }
+}
+HTTP/1.1 200 OK
+Date: Wed, 30 Jun 2021 09:52:24 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "33c8ebbff49fea7351627d72e473711d",
+    "scope": "APP",
+    "reference": "994b5fdbd95e44fea3d4ca9fc1f2f13d994b5fdbd95e44fea3d4ca9fc1f2f13d",
+    "id": "994b5fdbd95e44fea3d4ca9fc1f2f13d"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=33c8ebbff49fea7351627d72e473711d
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=33c8ebbff49fea7351627d72e473711d
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 30 Jun 2021 09:52:24 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 221
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Test3",
+    "phone_number": "+91-8887744152",
+    "address": "TC03 US",
+    "types": "AWS,AZUR,GCP",
+    "website": "http://google.com",
+    "language": "US East"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Test4",
+    "phone_number": "+91-8887744152",
+    "address": "TC04 US",
+    "website": "http://google.com",
+    "language": "US West",
+    "types": [
+        "AWS",
+        "AZUR",
+        "GCP"
+    ],
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    }
+}
+HTTP/1.1 200 OK
+Date: Wed, 30 Jun 2021 09:52:26 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "822af802a9617d0dce70f659fc5e2efd",
+    "scope": "APP",
+    "reference": "54d5c4d7a784af321ccf43aae4cc275054d5c4d7a784af321ccf43aae4cc2750",
+    "id": "54d5c4d7a784af321ccf43aae4cc2750"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=822af802a9617d0dce70f659fc5e2efd
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=822af802a9617d0dce70f659fc5e2efd
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 30 Jun 2021 09:52:26 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 221
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Test4",
+    "phone_number": "+91-8887744152",
+    "address": "TC04 US",
+    "types": "AWS,AZUR,GCP",
+    "website": "http://google.com",
+    "language": "US West"
+}
